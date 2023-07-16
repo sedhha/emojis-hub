@@ -1,0 +1,44 @@
+.footer {
+  position: fixed;
+  background-color: rgb(0, 244, 0);
+  padding: 2vh 2vw;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  color: #fff;
+}
+
+.otherApps {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  column-gap: 0.5vw;
+  row-gap: 1vh;
+}
+
+.otherApps > a {
+  color: #fff;
+  cursor: pointer;
+}
+
+.CloseButton {
+  padding: 1vh 1vw;
+  background-color: pink;
+  color: crimson;
+  position: absolute;
+  width: fit-content;
+  right: 2vw;
+  cursor: pointer;
+  transition: 0.3s ease-in all;
+}
+
+.CloseButton:hover {
+  scale: 0.98;
+}
+@media screen and (max-width: 420px) {
+  .footer {
+    display: none;
+  }
+}
