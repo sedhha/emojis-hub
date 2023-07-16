@@ -23,7 +23,8 @@ const useCategoryStore = create<StoreState>((set) => ({
   isLoading: false,
   total: 0,
   skip: 0,
-  setCategory: (newCategory: string) => set(() => ({ category: newCategory })),
+  setCategory: (newCategory: string) =>
+    set(() => ({ category: newCategory, skip: 0 })),
   setCategories: (categories: string[]) =>
     set(() => ({ categories: [...categories], skip: 0 })),
   setEmojis: (content: IEmojiResponse) =>

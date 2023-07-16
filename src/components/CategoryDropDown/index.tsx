@@ -25,7 +25,9 @@ const Categories = () => {
     setLoading(true);
     getCategories()
       .then((categories) => setCategories(categories))
-      .finally(() => setLoading(false));
+      .finally(() => {
+        setLoading(false);
+      });
   }, []);
   return (
     <div className={styles.categoryFilter}>
