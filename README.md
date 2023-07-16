@@ -1,3 +1,5 @@
+You can checkout this [URL](https://emojis-hub.vercel.app/) for live deployment app view.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## App Screenshots
