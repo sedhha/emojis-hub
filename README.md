@@ -39,3 +39,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - CSS Modules
 - Axios
 - NEXT APIs
+
+## Other Projects
+
+I have intentionally added a footer which is showcase of all my other projects. However it could easily be removed by clicking on `close this` button:
+
+![Remove the Image Icon](/src/readme-assets/remove-image.png)
+
+In case you want to re-view the footer, you can add this to end of your web URL:
+`?showOtherProjects=1`
+
+For example: `http://localhost:3000/?showOtherProjects=1`
