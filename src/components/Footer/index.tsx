@@ -59,7 +59,7 @@ const dontShowKey = 'donotShowThisAgain';
 const Footer = () => {
   const params = useSearchParams();
   const router = useRouter();
-  const shouldShow = JSON.parse(params.get('showOtherProjects') ?? 'false');
+  const shouldShow = !!JSON.parse(params.get('showOtherProjects') ?? 'false');
   const [dontShow, setDontShow] = useState(true);
   useEffect(() => {
     setDontShow(JSON.parse(localStorage.getItem(dontShowKey) ?? 'false'));
