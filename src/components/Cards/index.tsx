@@ -5,7 +5,7 @@ import { IEmojiResponse } from '@/interfaces/EmojiResponse';
 import useCategoryStore from '@/store/categories';
 import { useEffect } from 'react';
 import { config } from '@/config';
-import { Spinner } from './Spinner';
+import { Spinner } from '../Spinner';
 
 const getEmojis = async (
   category: string,

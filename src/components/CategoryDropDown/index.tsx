@@ -4,7 +4,7 @@ import styles from './CategoryDropDown.module.css';
 import useCategoryStore from '@/store/categories';
 import { useEffect } from 'react';
 import { config } from '@/config';
-import { Spinner } from './Spinner';
+import { Spinner } from '../Spinner';
 
 const getCategories = async (): Promise<string[]> =>
   axios.get<string[]>(`/api/get-categories`).then(({ data }) => data ?? []);
