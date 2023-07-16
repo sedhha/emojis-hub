@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## App Screenshots
+
+![Laptop View](src/readme-assets/image.png)
+
+![Tablet View](src/readme-assets/image-1.png)
+
+![Mobile View](src/readme-assets/image-2.png)
+
 ## Getting Started
 
 Install Dependencies or code files:
