@@ -22,7 +22,7 @@ const useCategoryStore = create<StoreState>((set) => ({
   emojis: [],
   isLoading: false,
   total: 0,
-  skip: 30,
+  skip: 0,
   setCategory: (newCategory: string) => set(() => ({ category: newCategory })),
   setCategories: (categories: string[]) =>
     set(() => ({ categories: [...categories], skip: 0 })),
